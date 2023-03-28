@@ -1,0 +1,53 @@
+<form method="POST" action="index.php"> <!--action="nameOfTheFileThatThisFormWillBeSubmttedTo eg index.php"-->
+    <fieldset>
+     <legend>Biodata</legend>   
+    <label for="fname">First Name: </label>
+    <input type="text" name="firstName">
+    <br>
+    <label for="lname">Last Name: </label>
+    <input type="text" name="lastName">
+    <br>
+    <label>Gender</label>
+    <br>
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male" value="male">
+
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="female" value="female">
+    </fieldset>
+    
+    <br>
+    <br>
+
+    <label for="eba">Eba</label>
+    <input type="checkbox" name="eba" value="eba">
+
+    <label for="iyan">Iyan</label>
+    <input type="checkbox" name="iyan" value="iyan">
+
+    <label for="rice">Rice</label>
+    <input type="checkbox" name="rice" value="rice">
+
+    <label for="beans">Beans</label>
+    <input type="checkbox" name="beans" value="beans">
+    <br>
+
+    <textarea row="20" cols="40">This is box that can be expanded</textarea> <br>
+
+    <label for="element">Symbols of elements:</label>
+    <select id="element" name="element" size="5" multiple>
+        <option>Au</option>
+        <option>Fe</option>
+        <option>Zn</option>
+        <option>Si</option>
+        <option>S</option>
+        <option>H</option>
+        <option>Sc</option>
+        <option>Ti</option>
+        <option>Co</option>
+    </select>
+
+    <br>
+    <input type="submit" value="Sign In" name="submit">
+
+</form>
